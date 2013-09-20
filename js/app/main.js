@@ -20,7 +20,7 @@ requirejs([
     'app', 
     'controller/homeCtrl', 
     ], 
-    function(angular, app) {
+    function(angular, app) {console.log(app)
         app.config(function($routeProvider) {
             $routeProvider
             .when('/', {
