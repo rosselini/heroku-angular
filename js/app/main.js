@@ -20,8 +20,8 @@ requirejs([
     'app', 
     'controller/homeCtrl', 
     ], 
-    function(angular, app) {console.log(app)
-        app.config(function($routeProvider) {
+    function(angular, app, homeCtrl) {
+        app.config(function($routeProvider) {console.log($routeProvider)
             $routeProvider
             .when('/', {
                 templateUrl: './js/views/index.html',

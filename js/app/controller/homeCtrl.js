@@ -3,7 +3,7 @@ define(['app'], function(app) {
 		console.log('test');
 
 		$scope.show = function() {
-			console.log('show');
+			alert('show');
 		}
 	});
 });
