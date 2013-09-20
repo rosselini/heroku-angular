@@ -1,5 +1,9 @@
-define(['app'], function() {
+define(['app'], function(app) {
 	app.controller('homeCtrl', function($scope) {
-		console.log('test')
+		console.log('test');
+
+		$scope.show = function() {
+			console.log('show');
+		}
 	});
 });
