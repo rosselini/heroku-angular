@@ -24,7 +24,7 @@ requirejs([
         app.config(function($routeProvider) {
             $routeProvider
             .when('/', {
-                templateUrl: './js/view/index.html',
+                templateUrl: './js/views/index.html',
                 controller: 'homeCtrl'
             })
         });
