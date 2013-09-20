@@ -8,7 +8,7 @@ app.use(express.logger());
 app.use(express.bodyParser());
 app.use(app.router);
 app.use('/js', express.static(__dirname + '/js'));
-app.set('views', __dirname + 'js/views');
+app.set('views', __dirname + '/js/views');
 app.engine('html', require('ejs').renderFile);
 
 app.get('/', api.index);
