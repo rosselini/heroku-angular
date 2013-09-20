@@ -18,7 +18,7 @@ requirejs.config({
 requirejs([
     'angular', 
     'app', 
-    'controller/homeController', 
+    'controller/homeCtrl', 
     ], 
     function(angular, app) {
         app.config(function($routeProvider) {
