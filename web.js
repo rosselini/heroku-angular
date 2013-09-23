@@ -12,6 +12,7 @@ app.set('views', __dirname + '/js/views');
 app.engine('html', require('ejs').renderFile);
 
 app.get('/', api.index);
+//app.get('/p/:name', api.p); //redirect routes
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {

@@ -18,14 +18,18 @@ requirejs.config({
 requirejs([
     'angular', 
     'app', 
-    'controller/homeCtrl', 
+    'controller/home'
     ], 
-    function(angular, app, homeCtrl) {
-        app.config(function($routeProvider) {console.log($routeProvider)
+    function(angular, app) {
+        app.config(function($routeProvider) {
             $routeProvider
             .when('/', {
-                templateUrl: './js/views/index.html',
-                controller: 'homeCtrl'
+                templateUrl: 'js/views/index1.html',
+                controller: 'home'
+            })
+            .when('/test', {
+                templateUrl: './js/views/test.html',
+                controller: 'home'
             })
         });
     
