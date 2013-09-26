@@ -4,6 +4,7 @@
 	"dependencies": {
 		"requirejs": null,
 		"angular": null,
-		"underscore": null
+		"underscore": null,
+		"jasmine": null
 	}
 }

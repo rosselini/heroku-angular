@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9 (Mac)" package="" timestamp="2013-09-25T22:10:21" id="0" hostname="MacBook-Pro-Ariel.local" tests="3" errors="0" failures="0" time="0.011">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34"/>
+    </properties>
+    <testcase name="simple foo test" time="0.003" classname="PhantomJS 1.9 (Mac).test_test"/>
+    <testcase name="Expect list of awesomeThings to the scope" time="0.006" classname="PhantomJS 1.9 (Mac).Controller: home"/>
+    <testcase name="Expect awesomeThings to have require JS" time="0.002" classname="PhantomJS 1.9 (Mac).Controller: home"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
